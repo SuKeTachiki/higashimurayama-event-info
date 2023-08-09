@@ -4,7 +4,7 @@ import { EventInfos } from "@/components/eventInfos";
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen text-black">
       <PageLayout mainContent={<EventInfos></EventInfos>}></PageLayout>
     </main>
   );
